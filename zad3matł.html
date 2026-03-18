@@ -6,42 +6,29 @@
     <link href="zad3.css" rel="stylesheet" type="text/CSS">
 </head>
 <body>
-<table>
-<tr><td>5 różnych sposobów podłączania pliku css do strony www</tr></td>
+<table border="1" cellpadding="8" cellspacing="0" align="center">
+    <tr>
+        <th colspan="4">Cechy modyfikowania formatowania w:</th>
+    </tr>
+    <tr>
+        <th width="35%">w HTML</th>
+        <th width="35%">w CSS</th>
+    </tr>
+    <tr>
+        <td width="35%">
+            modyfikacja wyglądu elementów strony jest bardzo <b>żmudna</b>
+            (atrybuty i znaczniki które za to odpowiadają, są porozrzucane
+            w różnych miejscach kodu, mieszając się ze strukturą dokumentu).
+        </td>
+        <td width="35%">
+            rozdzielenie <b>struktury i prezentacji</b> dokumentów czyli:
+            wszystkie polecenia dotyczące formatowania można umieścić
+            w jednym miejscu (tzw. arkuszu) i powiązać je z konkretnymi
+            elementami, wstawionymi za pomocą czystego (X)HTML.
+            Taki sposób sprawia, że modyfikacja wyglądu stron może
+            przebiegać dużo sprawniej.
+        </td>
+    </tr>
 </table>
-<h1> 1)Zewnętrzny arkusz stylów.</h1>
-<textarea>
-<head>
-         <link rel="Stylesheet" type="text/css" href="style.css" />
-</head>
- </textarea>
-<h3>2)Styl lokalny inaczej: (styl wpisany, liniowy, linijkowy, w linii) czyli
-dopisanie arkusza do wybranego bloku treści strony</h3>
-<textarea>
-<selektor style="cecha1: wartość1; cecha2: wartość2...">...</selektor>
-</textarea>
-<h3>3)Wewnętrzny arkusz stylów.</h3>
-<textarea>
-<head>
- <style type="text/css">
- selektor1 { cecha: wartość; cecha2: wartość2... }
- selektor2 { cecha: wartość; cecha2: wartość2... }
- </style>
-</head>
-</textarea>
-<h3>4)Alternatywny arkusz stylów.</h3>
-<textarea>
-<head>
-<link rel="Stylesheet" type="text/css" href="style.css" title="Nazwa domyślna" />
-<link rel="Alternate stylesheet" type="text/css" href="style1.css" title="Nazwa 1" />
-<link rel="Alternate stylesheet" type="text/css" href="style2.css" title="Nazwa 2" />
-</head>
-</textarea>
-<h3>5)Import arkusza stylów</h3>
-<textarea>
-<style type="text/css">
- @import url(adres zewnętrznego arkusza stylów);
-</style>
-</textarea>
 </body>
 </html>
