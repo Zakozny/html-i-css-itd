@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8">
+    <title>Tytuł mojej strony</title>
+  </head>
+  <body>
+<!-- Matlach Alan  -->
+<h1>Pytania</h1>
+<h1>1. Opis znacznika DIV (jaki to element, składnia w ramce, zastosowanie, opis
+treotyczny, atrybuty tylko wymień, opisz tylko ALIGN).</h1>
+<h2>1. Element blokowy (DIV) jest elementem blokowym może zawierać wewnątrz siebie zwykły tekst, jak również inne elementy blokowe. Został on pomyślany do tworzenia obszerniejszych struktur.
+
+2. Z div'a powinno się korzystać kiedy potrzebujemy wyodrębnić poszczególne bloki w układzie dokumentu, na przykład lewa kolumna, menu nawigacyjne, stopka.
+
+3. Służy do utworzenia sekcji (bloku) w pliku HTML w celu ich sformatowania za pomocą arkusza stylów CSS.
+
+4. DIV odgrywa istotną rolę w grupowaniu wielu różnych elementów i pozycjonowaniu fragmentów dokumentu.</h2>
+<textarea cols="50" rows="2">
+<div style="cecha: wartość; cecha2: wartość2...">...</div>
+</textarea>
+<h3>ALIGN="ustawienie"</h3>
+<h3>Poziome ustawienie (wyrównanie) z uwzględnieniem otoczenia (zdeprecjonowane):</h3>
+<h3>center - wyśrodkowaniev
+<h3>justify - wyrównanie do obu marginesów jednocześnie</h3>
+<h3>left - wyrównanie do lewej</h3>
+<h3>right - wyrównanie do prawej</h3>
+
+
+
+<h1>2. Opis znacznika SPAN (jaki to element, składnia w ramce, zastosowanie, opis treotyczny).</h1>
+
+
+<h2>1. Elementy wyświetlanie w linii (SPAN) jest elementem liniowym nie mogą zawierać elementów blokowych, ale mogą inne elementy wyświetlane w linii oraz zwykły tekst.
+
+2. Jeśli chcemy w paragrafie część tekstu wyróżnić czerwonym kolorem, do wyodrębnienia tego tekstu nie możemy użyć elementu div (paragraf
+
+z zasady nie może zawierać elementów blokowych) tylko span.
+
+3. Wewnątrz DIV można oczywiście wpisać również SPAN.</h2>
+<textarea cols="50" rows="20">
+<span style="cecha1: wartość1; cecha2: wartość2;"> ... </span>
+</textarea>
+<h3>Znacznik <span>...</span> pozwala na objęcie pewnego większego fragmentu dokumentu.
+Pojedynczym znacznikiem <span>...</span> możemy objąć kilka różnych elementów, które
+są wyświetlane w linii (sam element SPAN tak właśnie jest wyświetlany), np. wytłuszczenie
+tekstu oraz kursywę. Element ten tak dobrze nadaje się do osadzania stylów, ponieważ sam w
+sobie nie ma określonego żadnego formatowania, które mogłoby kolidować z efektem, jaki
+chcemy uzyskać.</h3>
+<h1>3. Różnica między znacznikami DIV i SPAN.</h1>
+<h2>Obydwa elementy służą jedynie do wyodrębniania części struktury dokumentu, aby docelowo na przykład poprzez arkusze styli osiągnąć zamierzony wygląd strony.
+
+Span'em wyodrębniamy elementy liniowe (najczęściej fragmenty tekstu) a divem blokowe (blokowe elementy, większe fragmenty struktury składające się na układ strony).
+
+Dodatkowo DIV domyślnie jest wyświetlany w bloku. Natomiast SPAN w linii.</h2>
+<h1>4. Opisz oraz wymień elementy/tagi: 1)liniowe 2)blokowe 3)blokowo-liniowe.</h1>
+<h2>Rodzaje elementów/tagów ze względu na sposób wyświetlania w
+przeglądarce.</h2>
+<textarea cols="56" rows="10">
+1. liniowe – <span>, <em>, <strong>
+2. blokowe – <div>, <p>, <article>
+3. liniowo-blokowe – <input>,<textarea>
+</textarea>
+<h1>Elementy liniowe nie spowodują przejścia do nowej linii, będą wyświetlać się obok siebie, w
+jednej linii. Domyślnie, elementom liniowym przeglądarka ustawia właściwość "display" na
+"inline".
+Elementy blokowe z kolei będą zachowywać się jak pudełka, które ustawiasz jeden pod
+drugim, a więc nigdy nie wyświetlą się obok siebie. Domyślnie, elementom blokowym
+przeglądarka ustawia właściwość "display" na "block",
+Elementy liniowo-blokowe z kolei będą zachowywać się jak liniowe, jeśli chodzi o
+położenie (a więc wyświetlać będą się obok siebie), natomiast różnią się od nich tym, że
+możesz nadać im różne wielkości. Ma to sens, np.  wyświetla się jako duży
+prostokąt i zdecydowanie "wychodzi" poza pojedynczą linijkę tekstu.Domyślnie,
+elementomliniowo blokowymprzeglądarka ustawia właściwość "display" na "inline-block".</h1>
+
+  </body>
+</html>
