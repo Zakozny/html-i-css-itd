@@ -1,0 +1,37 @@
+ body {
+            background-color: silver;
+            margin: 0;
+            padding: 20px;
+        }
+        p {
+            font-size: 11pt;
+        }
+        p:first-child {
+            font-size: 7mm;
+            font-style: italic;
+        }
+        #pierwszy_Matłach {
+            width: 816pt;
+            background-color: rgb(255, 192, 203);
+            border: 7px solid rgb(128, 0, 128);
+            border-radius: 14px;
+            margin: 20px 0;
+            padding: 15px;
+        }
+        #drugi_Matłach {
+            width: 1016pt;
+            background-color: rgb(144, 238, 144);
+            border: 3px solid rgb(0, 0, 0);
+            border-radius: 16px;
+            margin: 20px auto;
+            padding: 15px;
+        }
+        #trzeci_Matłach {
+            width: 1216pt;
+            background-color: rgb(173, 216, 230);
+            border: 5px solid rgb(0, 0, 128);
+            border-radius: 14px;
+            margin: 20px auto;
+            padding: 15px;
+        }
+/ * matłach Z65_css */
