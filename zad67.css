@@ -1,0 +1,21 @@
+.akapierwszy {
+    font-size: 19pt;
+    color: red; 
+}
+
+.akapierwszy::first-letter {
+    font-size: 111pt;
+    color: blue;
+}
+
+.akadrugi {
+    font-size: 20pt;
+    color: red;
+}
+
+.akadrugi::first-letter {
+    font-size: 111pt;
+    color: light yellow;
+}
+
+/* Matłach zad67_css */
